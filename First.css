@@ -1,0 +1,74 @@
+/* unvisited link */
+a:link {
+    color: red;
+    background-color: black;
+}
+
+/*visited link */
+a:visited {
+    color: green;
+    background-color: brown;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
+    background-color: cornsilk;
+    border: 2px solid black;
+}
+    /* slected link */
+a:active {
+    color: blue;}
+
+.red-input:focus
+{
+    background: yellow;
+    color:red;
+} 
+.flet::first-letter
+{
+    font-size: 200%;
+color: crimson;
+}
+.fline::first-line
+{
+    background-color: yellow;
+}
+    
+.fc:first-child
+{
+background-color: pink;
+color: royalblue;
+}
+
+.bef::before
+    {
+        content: "read this";
+        background-color: sienna;
+        font-size: 250%;
+        color: teal;
+    }
+.aft::after
+    {
+        content: "- Remember this";
+background-color: tomato;
+color: violet;
+    }
+.aft:link
+{
+    background-color: black;
+    color: white;
+    font-size: 150%;
+}
+.aft:visited
+{
+    background-color: turquoise;
+    color: blueviolet;
+}
+.aft:active
+{
+    background-color: darkorange;
+    color: darkviolet;
+}
+
